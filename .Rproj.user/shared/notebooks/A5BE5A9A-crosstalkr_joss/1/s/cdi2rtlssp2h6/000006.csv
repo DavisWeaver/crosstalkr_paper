@@ -1,0 +1,30 @@
+"0","df <- compute_crosstalk(seed_proteins = c(""EGFR"", ""KRAS"", ""PI3K"", ""STAT3""), cache = ""./data"")"
+"2","Registered S3 methods overwritten by 'dbplyr':
+  method         from
+  print.tbl_lazy     
+  print.tbl_sql      
+"
+"1","[1mRows: [22m[34m14094[39m [1mColumns: [22m[34m5[39m
+"
+"1","[36m--[39m [1mColumn specification[22m [36m-----------------------------------------------------------------------------------------------------------------------[39m
+[1mDelimiter:[22m ""\t""
+[31mchr[39m (4): STRING_type, STRING_name_compact, official_name_NCBI, domain
+[32mdbl[39m (1): #taxon_id
+"
+"1","
+[36mi[39m Use `spec()` to retrieve the full column specification for this data.
+[36mi[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"
+"2","using cached version of stringdb Homo Sapeins v11.0
+"
+"2","Please provide character string designating a filepath and seed name if you would like to save these results to speed up future analysis.
+"
+"1","Joining, by = ""node""
+"
+"0","df %>% slice_max(order_by = affinity_score, n = 5) %>% knitr::kable(digits = 4)"
+"2","Registered S3 methods overwritten by 'htmltools':
+  method               from         
+  print.html           tools:rstudio
+  print.shiny.tag      tools:rstudio
+  print.shiny.tag.list tools:rstudio
+"

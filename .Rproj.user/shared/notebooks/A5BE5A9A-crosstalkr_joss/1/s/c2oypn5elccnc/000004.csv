@@ -1,0 +1,17 @@
+"0","g <- prep_stringdb(cache = ""./data"")"
+"1","[1mRows: [22m[34m14094[39m [1mColumns: [22m[34m5[39m
+"
+"1","[36m--[39m [1mColumn specification[22m [36m-----------------------------------------------------------------------------------------------------------------------[39m
+[1mDelimiter:[22m ""\t""
+[31mchr[39m (4): STRING_type, STRING_name_compact, official_name_NCBI, domain
+[32mdbl[39m (1): #taxon_id
+"
+"1","
+[36mi[39m Use `spec()` to retrieve the full column specification for this data.
+[36mi[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"
+"2","using cached version of stringdb Homo Sapeins v11.0
+"
+"0","crosstalkr::plot_ct(df, g=g)"
+"2","Using `stress` as default layout
+"

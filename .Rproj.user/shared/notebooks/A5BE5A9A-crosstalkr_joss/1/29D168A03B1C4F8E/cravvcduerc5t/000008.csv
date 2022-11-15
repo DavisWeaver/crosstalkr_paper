@@ -1,0 +1,12 @@
+"0","out <- dRWR(g,normalise = ""column"", setSeeds = seeds)
+"
+"2","Start at 2022-09-14 12:14:52
+"
+"2","
+"
+"2","First, get the adjacency matrix of the input graph (2022-09-14 12:14:52) ...
+"
+"2","	Notes: using unweighted graph!
+"
+"2","Then, normalise the adjacency matrix using column normalisation (2022-09-14 12:14:54) ...
+"

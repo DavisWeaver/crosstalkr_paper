@@ -1,0 +1,7 @@
+"0","df <- compute_crosstalk(seed_proteins = c(""EGFR"", ""KRAS"", ""PI3K"", ""STAT3""), "
+"0","                        cache = ""./data"", seed_name = ""joss_ex"", n = 10000, "
+"0","                        significance_level = 0.99)"
+"0","df %>%"
+"0","  select(-c(Z,mean_p, var_p, nobs)) %>%"
+"0","  slice_max(order_by = affinity_score, n = 5) %>% "
+"0","  knitr::kable(digits = 4)"
